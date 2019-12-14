@@ -22,6 +22,7 @@ def find_the_cheese(cheese)# code an argument here
   # while i < cheese_types.length
   #   return cheese_types[i] if cheese.include?(cheese_types[i])
   #   i += 1
-  cheese.find do 
+  cheese.find do |i|
+    
   end
 end
