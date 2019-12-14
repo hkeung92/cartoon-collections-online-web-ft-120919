@@ -23,6 +23,6 @@ def find_the_cheese(cheese)# code an argument here
   #   return cheese_types[i] if cheese.include?(cheese_types[i])
   #   i += 1
   cheese.find do |i|
-    
+    cheese_types.include?(i)
   end
 end
